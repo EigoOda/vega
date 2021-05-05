@@ -1,0 +1,16 @@
+
+
+### Install Calico
+```bash
+$ curl https://docs.projectcalico.org/manifests/calico.yaml -O
+$ kubectl apply -f calico.yaml
+```
+
+
+
+### Install Metric-server
+
+```bash
+$ kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+```
+
